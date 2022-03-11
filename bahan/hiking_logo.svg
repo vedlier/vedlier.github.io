@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600"
+   height="200"
+   viewBox="0 0 158.75 52.916665"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="hiking_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="600px"
+     inkscape:zoom="0.55411055"
+     inkscape:cx="401.54442"
+     inkscape:cy="309.50503"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g56519"
+       transform="matrix(1.1578585,0,0,1.3545609,-8.3822698,-74.788156)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 8.2034271,86.399231 22.2997259,-9.53915 4.325752,2.054765 -2.138428,-8.78626 13.394327,13.798762 0.227238,-7.943194 7.589493,4.288441 -7.499469,-8.739902 5.330531,2.64288 -1.806591,-7.041136 6.797508,5.766413 -0.2052,-2.298372 9.983233,3.928369 L 49.092143,62.974436 36.920349,71.848029 32.30863,67.399478 Z"
+         id="path869"
+         sodipodi:nodetypes="ccccccccccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:19.5364px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.488411"
+         x="54.530159"
+         y="85.317436"
+         id="text4289"><tspan
+           sodipodi:role="line"
+           id="tspan4287"
+           style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Aileron;-inkscape-font-specification:'Aileron Light Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.488411"
+           x="54.530159"
+           y="85.317436">climb<tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Aileron;-inkscape-font-specification:'Aileron Bold Italic';fill:#ffffff;fill-opacity:1"
+   id="tspan46023">HILL</tspan></tspan></text>
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 14.637428,86.234745 55.360942,85.619037 38.558464,84.950923 c 0,0 -17.487035,1.119336 -23.921036,1.283822 z"
+         id="path55599"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* buat warning */
+.bungcil {
+    margin: 0px 1.5em;
+}
+
+.bungcil strong{
+    background-color: #ffbf66;
+    padding: 5px 0.7rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.appeal{
+    background-color: #F8A027;
+    font-size: 0.8rem;
+    width: 100%;
+    color: white;
+    line-height: 20px;
+}
+
+/* buat navbar */
+
+header{
+    background-color: #041C32;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    height: 100vh;
+    width: 50%;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+}
+
+.header nav .close{
+    float: right;
+    margin: 1.5em;
+    width: 1.5em;
+}
+
+.header nav ul{
+    list-style-type: none;
+    margin-top: 8em;
+}
+
+.header nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0.75em 2em;
+    display: block;
+}
+
+.header nav ul a:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.menu{
+    /* height: 16px; */
+    width: 1.8em;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+/* akhir navbar */
+
+/* article documentation */
+
+/* semboyan */
+.awal{
+    background: linear-gradient(357.27deg, #000000 -7.22%, rgba(7, 7, 7, 0) 120.45%),url(bahan/5.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 20%;
+    width: 100%;
+    height: 90vh;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.kami p{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.kami div{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.kami{
+    position: relative;
+    top: 28em;
+}
+
+/* tujuan */
+
+.tuan{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-family: 'Inter', sans-serif;
+}
+
+.tuan h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 1em;
+}
+
+.tuan p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* kartu tujuan */
+.kartu{
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-family: 'Inter', sans-serif;
+    color: #03111F;
+}
+
+.kartu h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    margin-bottom: 1.25em;
+}
+
+
+.kartu .kotak{
+    background-color: #03111F;
+    color: white;
+    height: 15em;
+    width: 100%;
+    padding: 3em;
+    margin-bottom: 1em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.kartu .kotak .orna{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3em;
+}
+
+.kartu .kotak h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+/* bates gallery */
+.bates{
+    height: 3.5em;
+}
+
+/* gallery */
+.poto{
+    padding-top: 2em;
+    padding-bottom: 5em;
+    font-family: 'Inter', sans-serif;
+}
+
+.poto h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    border-bottom:solid 2px #03111F;
+    padding-bottom: 0.5em;
+    width: 250px;
+    margin: 0 auto 1em;
+}
+
+.poto h2 span{
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    font-style: italic;
+}
+
+/* photo gallery */
+.gallery{
+    /* padding: 10px; */
+    /* background: #f2f2f2; */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+
+.gallery .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.25s ease-in-out;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:570px) {
+    .v-strecth{
+        grid-row: span 2;
+    }
+
+    .h-strecth{
+        grid-column: span 2;
+    }
+
+    .big-strecth{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    .vu-strecth{
+        grid-row: span 2;
+    }
+}
+
+@media (min-width: 940px) and (max-width:1099px)  {
+    .hu-strecth{
+        grid-column: span 2;
+    }
+
+    .vu-strecth{
+        grid-row: span 3;
+    }
+}
+
+/* .gallery{
+    position: relative;
+    column-count: 1;
+}
+
+.image{
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    transition: 0.25s ease-in-out;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:375px) {
+    .gallery{
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width:680px) {
+    .gallery{
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width:920px) {
+    .gallery{
+        column-count: 4;
+    }
+} */
+
+
+
+
+/* akhir article */
+
+/* footer */
+footer{
+    background-color: #041C32;
+    color: white;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kaki{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.kaki h4{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.kaki p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.kaki i{
+    font-size: 1.5rem;
+}
+
+.kaki font{
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+.kaki font span{
+    font-weight: bold;
+}
+
+/* ------ */
+.header .open-nav{
+    transform: translateX(0%);
+}
+
+@media only screen and (min-width:680px) {
+    .bungcil {
+        margin: 0px 5em;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .awal{
+        height: 400px;
+    }
+
+    .kami{
+        top: 17em;
+    }
+
+    .tuan h3{
+        text-align: right;
+    }
+
+    .tuan p{
+        padding-top: 0.5em;
+    }
+}
+
+@media only screen and (min-width:920px){
+    /* navbar */
+    .menu{
+        display: none;
+    }
+
+    .header nav{
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+    }
+
+    .header nav .close{
+        display: none;
+    }
+
+    .header nav ul{
+        display: flex;
+        margin: 0;
+    }
+
+    .header nav ul li a{
+        color: white;
+        padding: 0.8em 1.5em;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .header nav ul a:hover{
+        background: none;
+        text-decoration: underline;
+    }
+    /* akhir navbar */
+
+    .awal{
+        background-position-x: center;
+        background-position-y: 45%;
+    }
+
+    
+}
+
+@media only screen and (min-width:1100px){
+    .bungcil{
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    /* tulisan respons */
+    .kami p{
+        font-size: 38px;
+        line-height: 51px;
+    }
+
+    .kartu h2{
+        font-size: 36px;
+    }
+
+    .kartu .kotak h3{
+        font-size: 36px;
+    }
+
+    .kartu .kotak .orna{
+        height: 3.5em;
+    }
+}
